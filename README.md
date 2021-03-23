@@ -9,15 +9,15 @@
     <li>
         <a href="#">Data</a>
         <ul>
-            <li><a>intermediate_data</a></li>
-            <li><a>row_data</a></li>
+            <li><a href="#">intermediate_data</a></li>
+            <li><a href="#">row_data</a></li>
         </ul>
     </li>
     <li>
         <a href="#">notebook</a>
         <ul>
-            <li><a>data_cleaning.ipynb</a></li>
-            <li><a>data_exploratory.ipynb</a></li>
+            <li><a href="#">data_cleaning.ipynb</a></li>
+            <li><a href="#">data_exploratory.ipynb</a></li>
         </ul>
     </li>
     <li>
@@ -26,34 +26,34 @@
             <li>
                 <a href="#">data</a>
                 <ul>
-                    <li><a>__init__.py</a></li>
-                    <li><a>data_import.py</a></li>
+                    <li><a href="#">__init__.py</a></li>
+                    <li><a href="#">data_import.py</a></li>
                 </ul>
             </li>
             <li>
                 <a href="#">utils</a>
                 <ul>
-                    <li><a>__init__.py</a></li>
-                    <li><a>db_connect.py</a></li>
-                    <li><a>functions.py</a></li>
+                    <li><a href="#">__init__.py</a></li>
+                    <li><a href="#">db_connect.py</a></li>
+                    <li><a href="#">functions.py</a></li>
                 </ul>
             </li>
             <li>
-                <a>__init.py__</a>
+                <a href="#">__init.py__</a>
             </li>
         </ul>
     </li>
     <li>
-        <a>.gitignore</a>
+        <a href="#">.gitignore</a>
     </li>
     <li>
-        <a>calcul_nutriscore.png</a>
+        <a href="#">calcul_nutriscore.png</a>
     </li>
     <li>
-        <a>README.md</a>
+        <a href="#">README.md</a>
     </li>
     <li>
-        <a>requirements.txt</a>
+        <a href="#">requirements.txt</a>
     </li>
 </ul>  
 
