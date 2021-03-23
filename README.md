@@ -4,6 +4,59 @@
 [![Generic badge](https://img.shields.io/badge/ml-brief4-success)](https://shields.io/)
 [![Generic badge](https://img.shields.io/badge/visualisation-brief4-success)](https://shields.io/)
 
+## Structure du projet 
+<ul>
+    <li>
+        <a href="#">Data</a>
+        <ul>
+            <li><a>intermediate_data</a></li>
+            <li><a>row_data</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="#">notebook</a>
+        <ul>
+            <li><a>data_cleaning.ipynb</a></li>
+            <li><a>data_exploratory.ipynb</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="#">src</a>
+        <ul>
+            <li>
+                <a href="#">data</a>
+                <ul>
+                    <li><a>__init__.py</a></li>
+                    <li><a>data_import.py</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">utils</a>
+                <ul>
+                    <li><a>__init__.py</a></li>
+                    <li><a>db_connect.py</a></li>
+                    <li><a>functions.py</a></li>
+                </ul>
+            </li>
+            <li>
+                <a>__init.py__</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a>.gitignore</a>
+    </li>
+    <li>
+        <a>calcul_nutriscore.png</a>
+    </li>
+    <li>
+        <a>README.md</a>
+    </li>
+    <li>
+        <a>requirements.txt</a>
+    </li>
+</ul>  
+
 ## Contexte du projet
 
 Vous intégrez FoodFlix, une startup de la FoodTech qui travaille actuellement sur une application permettant de recommander le meilleur produit à un utilisateur selon un mot clé ou un ensemble de mot clés. Les éléments à remonter sont les éléments liés au Nutri Score pour le MVP. Cependant vous pouvez être force de proposition et proposer de nouveaux éléments.
@@ -48,7 +101,7 @@ Le travail consiste à étudier la donnée, selectionner le sous ensemble qui va
 
 ![calcul du nutriscore](calcul_nutriscore.png "image du calcul du nutriscore")
 
-## Première etape
+## Première étape
 
 Dans un premier temps, il faut comprendre ce qu'on entend par nutriscore et se poser les questions suivantes. Qu'est-ce que le nutriscore, comment est -il attribué, quels sont les paramètres qui entrent en jeu de le calcul de celui-ci ? 
 Cette étape est très importante pour notre analyse afin de garder seulement les données pertinantes. 
@@ -60,5 +113,9 @@ Le nutriscore est attribué sur la base d'un score prenant en compte pour 100g o
 * en nutriments et aliments à favoriser (fibres, protéines, fruits, légumes, légumineuses, fruits à coques, huile de colza, de noix et d'olive)
 
 * en nutriments à limiter (énergie, acides gras saturés, sucres, sel)
+
+## Deuxième étape
+
+
 
 
