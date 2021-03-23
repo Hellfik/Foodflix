@@ -26,8 +26,39 @@ Le travail consiste à étudier la donnée, selectionner le sous ensemble qui va
 ### Livrables
 
 * Code de l'analyse de la donnée non nettoyée
-* Code de selection des données et de nettayge de cell-ci
+* Code de selection des données et de nettayge de celle-ci
 * Visualisation des données / Vérification de la consistance des données
 * Slide de présentation du travail réalisé
 
 **En complément :**  Utilisation du machine learning pour remplir les valeurs manquantes.
+
+## Technologies utilisées
+
+* Python (Notebooks)
+* Pandas pour la manipulation de la donnée
+* Sqlite3 pour le stockage des données nettoyées
+* seaborn pour afficher, de façon graphique, l'analyse du jeu de données
+
+
+
+## Liens et sources utilisés pour mon analyse
+
+* [Information sur le nutriscore (mangerbouger)](https://www.mangerbouger.fr/Manger-mieux/Comment-manger-mieux/Comment-comprendre-les-informations-nutritionnelles/Qu-est-ce-que-le-Nutri-Score?xtor=SEC-33-GOO-[Nutriscore]--S-[nutri-score]&gclid=CjwKCAjw9MuCBhBUEiwAbDZ-7ggV6OrYm_YjqKBsRPhOppKS7D0wMRU37fMXhKimqjCY3r35VGkizRoCGI8QAvD_BwE&gclsrc=aw.ds)
+* [Information sur le nutriscore (santé publique)](https://www.santepubliquefrance.fr/determinants-de-sante/nutrition-et-activite-physique/articles/nutri-score)
+
+![calcul du nutriscore](calcul_nutriscore.png "image du calcul du nutriscore")
+
+## Première etape
+
+Dans un premier temps, il faut comprendre ce qu'on entend par nutriscore et se poser les questions suivantes. Qu'est-ce que le nutriscore, comment est -il attribué, quels sont les paramètres qui entrent en jeu de le calcul de celui-ci ? 
+Cette étape est très importante pour notre analyse afin de garder seulement les données pertinantes. 
+
+On peut commencer par remarquer que le nutriscore est calculé de façon de différente si le produit est transformé ou si il s'agit d'une boisson (Ne sont pas concerné les fruits, légumes frais, poissons ou encore les boissons alcolisées).
+
+Le nutriscore est attribué sur la base d'un score prenant en compte pour 100g ou 100mL de produit, la teneur en :
+
+* en nutriments et aliments à favoriser (fibres, protéines, fruits, légumes, légumineuses, fruits à coques, huile de colza, de noix et d'olive)
+
+* en nutriments à limiter (énergie, acides gras saturés, sucres, sel)
+
+
